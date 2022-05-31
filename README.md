@@ -13,3 +13,5 @@ En este repositorio se encontrarán las actividades a desarrollar para la materi
 ```json
  docker run -dit --name app-running -p 8080:80 app-usuarios 
 ```
+
+## Al ejecutar los comandos se puede ver la página desplegada en localhost:8080
