@@ -36,23 +36,8 @@
               <th>Opciones</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <th>1</th>
-              <th>Jonatan</th>
-              <th>Casallas</th>
-              <th>Silva</th>
-              <th>3114567890</th>
-              <th>jdcasallas@gmail.com</th>
-              <th>
-                <button class="button is-warning is-rounded">
-                  <i class="fas fa-pencil-alt"></i>
-                </button>
-                <button class="button is-danger is-rounded">
-                  <i class="fas fa-trash"></i>
-                </button>
-              </th>
-            </tr>
+          <tbody id="user-container">
+
           </tbody>
         </table>
       </div>
@@ -61,7 +46,7 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">Registrar Nuevo Usuario</p>
+          <p class="modal-card-title">Ingrese la información del usuario</p>
           <button
             class="delete"
             aria-label="close"
@@ -127,9 +112,8 @@
                 <input
                   class="input"
                   type="email"
-                  name="email"
-                  maxlength="10"
-                  placeholder="Ingrese su correo electronico"
+                  name="email"                  
+                  placeholder="someone@someone.com"
                 />
                 <span class="icon is-small is-left">
                   <i class="fas fa-envelope"></i>
@@ -145,21 +129,22 @@
                   placeholder="Textarea"
                 ></textarea>
               </div>
-            </div>
-          </form>
+            </div>          
         </section>
         <footer class="modal-card-foot">
           <button class="button is-primary is-rounded">
             <i class="fas fa-save"></i>
-            <span>Registrar Usuario</span>
+            <span>Guardar</span>
           </button>
         </footer>
+      </form>
       </div>
-    </div>
+    </div>  
+
     <script
       src="https://kit.fontawesome.com/d641655315.js"
       crossorigin="anonymous"
     ></script>
-    <script src="js/app.js"></script>
+    <script type="module" src="js/app.js"></script>
   </body>
 </html>
